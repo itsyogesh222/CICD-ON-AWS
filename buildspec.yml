@@ -15,7 +15,7 @@ phases:
   pre_build:
     commands:
       - echo "logging in to ec2"
-      build:
+  build:
     commands:
       - echo "Deploying to Ec2"
       - ec2_key_pem > key.pem
